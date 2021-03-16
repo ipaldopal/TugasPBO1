@@ -16,6 +16,6 @@ public class Gallontgs1 {
         Gallons=ambil.nextDouble();
         count=Gallons*3.785f;
 
-        System.out.printf("%.0f Galon = %.2f Liter \n\n",Gallons,count);
+        System.out.printf("%.0f Galon = %.3f Liter \n\n",Gallons,count);
     }
 }
